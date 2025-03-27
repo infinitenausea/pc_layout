@@ -7,7 +7,6 @@ const smoothScroll = () => {
     links.forEach((link) => {
         link.addEventListener('click', (event) => {
             event.preventDefault();
-            console.log(seamless);
             const section = document.querySelector(link.getAttribute('href'));
 
             if (section) {
